@@ -80,4 +80,10 @@ $ rm directory -r
 $ cp file_name.txt /home/username/dir_name_2/new_file_name.txt
 ```
 
+**scp** */путь_до_файла/имя_файла user@ip_server:/путь до дериктории/* - копирование фалов с локальной машины на удалённый сервер. Важно! Запуск из домашнего терминала.
+
+```bash
+$ scp /home/user/Dev/project/file.txt user@0.0.0.0:/home/user/
+```
+
 **clear** — очистить всю выведенную в консоль информацию, начать «с чистого листа».
